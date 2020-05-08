@@ -1,0 +1,349 @@
+.fluid-container {
+    display: flex;
+    background-color: rgb(38, 35, 231);
+    flex-wrap: wrap;
+}
+
+* {
+    font-family: "Arial Rounded MT Bold";
+    /* font-size: 15px; */
+}
+
+#header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #316DC3;
+    height: 47px;
+    flex-wrap: wrap;
+}
+
+#nav {
+    display: flex;
+    justify-content: flex-left;
+    background-color: rgb(247, 247, 247);
+    margin: 0;
+    height: 75px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#header>div {
+    padding: 12px;
+    font-size: 16px;
+}
+
+i {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-top: -5px;
+}
+
+#hp {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.button {
+    font-family: Arial, Helvetica, sans-serif !important;
+    height: 26px;
+    background-color: #fff;
+    border: 0.5px solid rgb(49, 49, 49);
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(131, 121, 121);
+}
+
+.button:hover {
+    background-color: rgb(206, 209, 214);
+    color: white;
+}
+
+.button {
+    padding: 4px 8px;
+}
+
+#logo {
+    max-height: 60px;
+    padding-right: 240px;
+    padding-left: 60px;
+}
+
+#db {
+    width: 140px !important;
+}
+
+#donate {
+    width: 100px;
+}
+
+.dropbtn {
+    font-family: Arial, Helvetica, sans-serif !important;
+    background-color: rgb(247, 247, 247);
+    color: black;
+    padding: 9px;
+    font-size: 12px;
+    border: none;
+    margin-top: 17px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 80px;
+    height: 35px;
+    /* padding-right: -60px;  */
+    border-radius: 25px 25px;
+}
+
+.dropdown {
+    /* position: relative; */
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 130px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #316DC3;
+    color: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    color: white;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #316DC3;
+    color: white;
+}
+
+#caretdown {
+    margin-left: -2px;
+    color: black;
+}
+
+.main-div {
+    /* display: flex; */
+    display: block;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* margin-left: -118px; */
+    /* margin-right: -50px; */
+    animation: slider 15s infinite linear;
+}
+
+@keyframes slider {
+    0% {
+        background-image: url(./slider1.png);
+    }
+    35% {
+        background-image: url(./slider2.png);
+    }
+    50% {
+        background-image: url(./BloodBank_Slider.jpg);
+    }
+    75% {
+        background-image: url(./ehsaas&saylani.jpeg);
+    }
+    100% {
+        background-image: url(./Banner.jpeg);
+    }
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.green {
+    color: rgb(39, 202, 39);
+}
+
+.blue {
+    color: rgb(42, 122, 235);
+}
+
+.mq {
+    background-size: 2px;
+    margin-top: 515px;
+    margin-bottom: 7px;
+    /* text-align: center; */
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+}
+
+#mq {
+    background-color: #316DC3;
+}
+
+#a {
+    background-color: rgb(250, 249, 249);
+}
+
+.hc {
+    text-align: center;
+    font-size: 30px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+}
+
+#about {
+    text-align: center;
+}
+
+#about {
+    text-align: left;
+    color: rgba(61, 58, 58, 0.705);
+    margin-top: 20px;
+}
+
+#expense {
+    height: 300px;
+    background-color: #316DC3;
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+}
+
+.line {
+    color: rgb(46, 194, 46);
+}
+
+.line {
+    display: inline;
+    text-align: center;
+}
+
+#p1 {
+    text-align: center;
+}
+
+.col {
+    font-size: 72px;
+    width: 700px;
+    color: #fff;
+    padding-top: 30px;
+    margin-right: 40px;
+    font-family: fantasy;
+}
+
+.scontainer {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-around;
+    position: relative;
+    display: flex;
+}
+
+.cols {
+    border: 1px sold grey;
+    background-color: white;
+    justify-content: space-around;
+    margin-top: 40px;
+    position: center;
+}
+
+.col1 {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 12px 12px 30px rgb(221, 219, 219);
+    box-shadow: rgb(32, 32, 32);
+    width: 350px;
+    height: 180px;
+    text-align: center;
+    margin-right: 30px;
+    padding-top: 40px;
+}
+
+.row {
+    margin-top: 30px;
+}
+
+#ab {
+    background-color: rgb(250, 249, 249);
+    margin-top: -25px;
+    padding: 20px;
+    padding-bottom: 70px;
+}
+
+.col2 {
+    width: 370px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.ic {
+    border: 1px solid rgb(230, 227, 227);
+    background-color: rgb(250, 249, 249);
+    width: 340px;
+    height: 75px;
+    /* margin-left: 30px; */
+    margin-right: 40px;
+    margin-bottom: 25px;
+    margin-right: 6px;
+    padding: 20px;
+}
+
+#lc {
+    margin-top: 80px;
+    margin-bottom: 160px;
+}
+
+#footer {
+    background-color: rgb(37, 39, 46) !important;
+    height: 360px;
+}
+
+#fi {
+    color: rgb(46, 194, 46);
+    /* padding-right: -40px; */
+}
+
+.col6 {
+    width: 410px;
+    padding: 20px;
+    /* margin-top: 20px; */
+}
+
+ul {
+    margin-top: -10px;
+}
+
+#fp {
+    margin-bottom: -3px;
+    color: rgb(202, 188, 188);
+}
+
+#cr {
+    height: 60px;
+    color: white;
+    background-color: #316DC3;
+}
+
+.crp {
+    padding: 20px;
+    /* margin-left: 150px; */
+}
